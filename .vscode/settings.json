@@ -30,5 +30,12 @@
     "isort.args": [
         "--profile",
         "black"
-    ]
+    ],
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.md"
+    ],
+    "grammarly.config.documentDialect": "american"
 }

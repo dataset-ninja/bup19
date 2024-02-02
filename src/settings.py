@@ -21,8 +21,11 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.Unknown()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
-CATEGORY: Category = Category.Agriculture()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Agricultural(),
+    Industry.Robotics(),
+]
+CATEGORY: Category = Category.Agriculture(extra=Category.Robotics())
 
 CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
@@ -30,7 +33,10 @@ CV_TASKS: List[CVTask] = [
     CVTask.ObjectDetection(),
     CVTask.MonocularDepthEstimation(),
 ]
-ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
+ANNOTATION_TYPES: List[AnnotationType] = [
+    AnnotationType.InstanceSegmentation(),
+    AnnotationType.ObjectDetection(),
+]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
@@ -56,9 +62,9 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[
-    Union[str, List[str], Dict[str, str]]
-] = "https://ieeexplore.ieee.org/abstract/document/9363407"
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = (
+    "https://ieeexplore.ieee.org/abstract/document/9363407"
+)
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
