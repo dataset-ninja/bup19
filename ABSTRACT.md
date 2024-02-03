@@ -1,5 +1,9 @@
 The authors release **BUP19: Sweet Pepper Dataset** to explore the issue of generalisability of the large differences between cropping environments by considering a fruit (sweet pepper) that is grown using different cultivars (sub-species) and in different environments (field vs glasshouse).
 
+Note, similar **BUP19: Sweet Pepper Dataset** datasets are also available on the [DatasetNinja.com](https://datasetninja.com/):
+
+- [BUP20: Sweet Pepper Dataset](https://datasetninja.com/bup20)
+
 The field of agricultural robotics is experiencing rapid growth, driven by advancements in computer vision, machine learning, and robotics, coupled with an increasing demand in agriculture. Despite these strides, a significant gap exists between the technology available and the diverse requirements of farming, primarily due to the substantial variations in cropping environments. This underscores the urgent need for models with enhanced generalizability.
 
 Addressing this gap, the BUP19 dataset was meticulously curated, encompassing diverse domains, cultivars, cameras, and geographic locations. The authors leverage this dataset in both individual and combined approaches to assess the detection and classification of sweet peppers in the wild. They opt for Faster-RCNN for detection, benefiting from its seamless adaptability to multitask learning through the incorporation of the Mask-RCNN framework for instance-based segmentation.
