@@ -17,10 +17,10 @@ In summary, the presentation of unique and varied datasets exemplifies the capac
 
 ## Dataset description
 
-The BUP dataset was captured in a glass house replicating a commercial setting at Campus Klein-Altendorf. Two different cultivar of sweet pepper were grown simultaneously during experiments: Mazurka (Rijk Zwaan) and Mavras (Enza Zaden). The glass house for sweet pepper cultivation was arranged into six rows of approximately 40m in length each. Data was recorded into bagfiles using an Intel RealSense D435i camera at 30fps. For recording each row was separated into
+The BUP19 dataset was captured in a glass house replicating a commercial setting at Campus Klein-Altendorf. Two different cultivar of sweet pepper were grown simultaneously during experiments: Mazurka (Rijk Zwaan) and Mavras (Enza Zaden). The glass house for sweet pepper cultivation was arranged into six rows of approximately 40m in length each. Data was recorded into bagfiles using an Intel RealSense D435i camera at 30fps. For recording each row was separated into
 four equally spaced sections. Post processing was completed to align the depth and RGB images using the [pyrealsense23](https://github.com/IntelRealSense/librealsense) libraries. The stored depth image is a uint16 TIFF format file where 1mm is represented by each change in value.
 
-<img src="https://github.com/dataset-ninja/bup19/assets/120389559/a2f03fc9-b4fd-40e4-ac1e-104c73c9816e" alt="image" width="500">
+<img src="https://github.com/dataset-ninja/bup19/assets/120389559/a2f03fc9-b4fd-40e4-ac1e-104c73c9816e" alt="image" width="1000">
 
 <span style="font-size: smaller; font-style: italic;">Example images from the BUP19 dataset: (a) is the raw image, (b) is a colourised version of the instance masks, \(c\)-(f) are representations of the instance masks for black, green, mixed, and red, and (g) is a quantized version of the depth image for visualisation.</span>
 
