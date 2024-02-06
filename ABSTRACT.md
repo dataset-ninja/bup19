@@ -1,4 +1,4 @@
-The authors release **BUP19: Sweet Pepper Dataset** to explore the issue of generalisability of the large differences between cropping environments by considering a fruit (sweet pepper) that is grown using different cultivars (sub-species) and in different environments (field vs glasshouse).
+The authors release **BUP19: Sweet Pepper Dataset** to explore the issue of generalisability of the large differences between cropping environments by considering a fruit (sweet pepper) that is grown using different cultivars (sub-species) and in different environments (field vs glasshouse). The authors perform an evaluation of sweet pepper detection, segmentation, and quality assessment. Evaluations show that while domain specific models yield higher performance on their source data, detection and segmentation of sweet pepper on unseen data is viable for agricultural robotics by exploiting multi-task learning.
 
 Note, similar **BUP19: Sweet Pepper Dataset** datasets are also available on the [DatasetNinja.com](https://datasetninja.com/):
 
