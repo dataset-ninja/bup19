@@ -42,7 +42,7 @@ RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = 2019
 
-HOMEPAGE_URL: str = "http://agrobotics.uni-bonn.de/"
+HOMEPAGE_URL: str = "http://agrobotics.uni-bonn.de/data/"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 13181247
