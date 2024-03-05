@@ -84,7 +84,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.uni-bonn.de/en"
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
     "__POSTTEXT__": "Additionally, images are grouped by ***im id***. Also, every image in train dataset marked with ***alireza*** or ***claus*** tag"
 }
-TAGS: Optional[List[str]] = None
+TAGS: Optional[List[str]] = ['multi-view']
 
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
