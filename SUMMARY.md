@@ -2,6 +2,6 @@
 
 The dataset consists of 572 images with 7448 labeled objects belonging to 4 different classes including *black pepper*, *green pepper*, *mixed pepper*, and other: *red pepper*.
 
-Images in the BUP19 dataset have pixel-level instance segmentation and bounding box annotations. Due to the nature of the instance segmentation task, it can be automatically transformed into a semantic segmentation task (only one mask for every class). All images are labeled (i.e. with annotations). There are 3 splits in the dataset: *train* (228 images), *test* (176 images), and *val* (168 images). Additionally, images are grouped by ***im id***. Also, every image in train dataset marked with ***alireza*** or ***claus*** tag. The dataset was released in 2019 by the University of Bonn, Germany.
+Images in the BUP19 dataset have pixel-level instance segmentation and bounding box annotations. Due to the nature of the instance segmentation task, it can be automatically transformed into a semantic segmentation task (only one mask for every class). All images are labeled (i.e. with annotations). There are 3 splits in the dataset: *train* (228 images), *test* (176 images), and *val* (168 images). Additionally, images are grouped by ***im id***. Also, every image in train dataset marked with ***alireza*** or ***claus*** tag. The dataset was released in 2019 by the <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">University of Bonn, Germany</span>.
 
 <img src="https://github.com/dataset-ninja/bup19/raw/main/visualizations/poster.png">
